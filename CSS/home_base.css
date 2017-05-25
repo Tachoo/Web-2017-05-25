@@ -14,10 +14,54 @@ div
 {
     display: block;
 }
-#header
+#warpper
 {
-    background-color: #000;
-    width: 930px;
+   background: url(http://www.tachoo.xyz/home/img/BackGround.jpg);
+    width: 1903px;
     margin: 10px auto;
-    height: 300px;
+    height: 1892px;
 }
+#mainc
+{
+    width: 100%;
+    height: 100%;
+}
+/*Slider*/
+.slider
+{
+width: 95%;
+margin: auto;
+overflow: hidden;
+}
+.slider ul
+{
+    display: flex;
+    width: 400%;
+    animation: Mover 20s infinite;
+}
+.slider li
+{
+    width: 100%;
+    list-style: none;
+}
+.slider img
+{
+    width: 100%;
+}
+
+@keyframes Mover
+{
+/* 4s */
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+/* 4s */
+    25%{margin-left: -100%}
+    45%{margin-left: -100%}
+/* 4s */
+    50%{margin-left: -200%}
+    70%{margin-left: -200%}
+/* 4s */
+    75%{margin-left: -300%}
+    100%{margin-left: -300%}
+}
+/*Slider*/
