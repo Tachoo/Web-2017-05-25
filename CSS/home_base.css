@@ -1,0 +1,23 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    /*Hacemos la regla para toda letra en la web*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+div
+{
+    display: block;
+}
+#header
+{
+    background-color: #000;
+    width: 930px;
+    margin: 10px auto;
+    height: 300px;
+}
