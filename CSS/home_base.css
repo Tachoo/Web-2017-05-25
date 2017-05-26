@@ -32,9 +32,15 @@ div
 	height:115px;
     
 }
+#clearfix
+{
+    width: 999px;
+    margin: 0 auto;
+}
 #globalnavi{
-margin: 5px auto;
-padding:0;
+margin: 0px auto;
+padding:0px;
+width: 650px;
 height:100%;
 }
 
@@ -42,15 +48,19 @@ height:100%;
 text-indent:-9999px;
 float:left;
 width:130px;
-padding:0;
+padding:0 0;
+vertical-align: baseline;
 list-style-type:none;
 }
-
+.logo
+{
+    margin-top: 5px;
+}
 #globalnavi a{
 display:block;
 width:100%;
 height:70px;
-background-image: url(http://www.tachoo.xyz/perimg/menuimg/menubar.png);   
+background-image: url(http://www.tachoo.xyz/perimg/menuimg/menubar.jpg);   
 background-repeat: no-repeat;   
 }
 
@@ -62,7 +72,7 @@ background-repeat: no-repeat;
  
 #globalnavi a:hover {   
 text-decoration: none;   
-background-image: url(http://www.tachoo.xyz/perimg/menuimg/menubar.png);   
+background-image: url(http://www.tachoo.xyz/perimg/menuimg/menubar.jpg);   
 background-repeat: no-repeat;   
 }   
 
@@ -73,10 +83,12 @@ background-repeat: no-repeat;
 .news a:hover { background-position: -130px -280px; }   
 
 
+
+
 /*Slider*/
 .slider
 {
-width: 95%;
+width: 100%;
 margin: auto;
 overflow: hidden;
 }
@@ -114,3 +126,15 @@ overflow: hidden;
     100%{margin-left: -300%}
 }
 /*Slider*/
+
+#seccion-content
+{
+    top: -75px;
+    position: relative;
+    background-color: #000;
+    width: 1000px;
+    height: 799px;
+    margin: 0 auto;
+    z-index: 10;
+}
+
