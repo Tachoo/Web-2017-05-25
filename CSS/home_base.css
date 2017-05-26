@@ -17,15 +17,62 @@ div
 #warpper
 {
    background: url(http://www.tachoo.xyz/home/img/BackGround.jpg);
+   background-repeat: no-repeat;
     width: 1903px;
-    margin: 10px auto;
+    margin: 0px auto;
     height: 1892px;
 }
 #mainc
 {
-    width: 100%;
+    margin:  0px auto;
     height: 100%;
 }
+#header {
+	width: 1903px;
+	height:115px;
+    
+}
+#globalnavi{
+margin: 5px auto;
+padding:0;
+height:100%;
+}
+
+#globalnavi li{
+text-indent:-9999px;
+float:left;
+width:130px;
+padding:0;
+list-style-type:none;
+}
+
+#globalnavi a{
+display:block;
+width:100%;
+height:70px;
+background-image: url(http://www.tachoo.xyz/perimg/menuimg/menubar.png);   
+background-repeat: no-repeat;   
+}
+
+.about a { background-position: 0 0px; } 
+.carrers a { background-position: 0 -70px; }   
+.logo a { background-position: 0px -140px; }   
+.games a { background-position: 0 -210px; }   
+.news a { background-position: 0 -280px; }   
+ 
+#globalnavi a:hover {   
+text-decoration: none;   
+background-image: url(http://www.tachoo.xyz/perimg/menuimg/menubar.png);   
+background-repeat: no-repeat;   
+}   
+
+.about a:hover { background-position: -130px 0px; } 
+.carrers a:hover { background-position: -130px -70px; }   
+.logo a:hover { background-position: -130px -140px; }   
+.games a:hover { background-position: -130px -210px; }   
+.news a:hover { background-position: -130px -280px; }   
+
+
 /*Slider*/
 .slider
 {
@@ -38,6 +85,8 @@ overflow: hidden;
     display: flex;
     width: 400%;
     animation: Mover 20s infinite;
+    animation-timing-function: ease-in-out;
+
 }
 .slider li
 {
