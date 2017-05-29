@@ -131,9 +131,9 @@ overflow: hidden;
 {
     top: -75px;
     position: relative;
-    background-color: red;
+    background-color:#000;
     width: 1000px;
-    height: 799px;
+    height: 800px;
     margin: 0 auto;
     z-index: 1;
 }
@@ -141,21 +141,87 @@ overflow: hidden;
 /*Container*/
 #viewcontent, #moreviewcontent
 {
-    z-index: 2;
+    display: inline-block;
+    z-index: 1;
 }
 
 #viewcontent
 {
-width: 90px;
-height: 300px;
+width: 100%;
+height: 650px;
+
 /**/
-background-color: red;
+
+
 }
-moreviewcontent
+#moreviewcontent
 {
-width: 90px;
-height: 300px;  
+width: 100%;
+height: 150px;  
 /**/
+
+}
+
+/*in viewcontent*/
+#viewI , #ViewD 
+{
+float: left;
+}
+
+#ViewI
+{
+width: 400px;
+height: 650px;
+background-color: #335;
+}
+#ViewD
+{
+width: 600px; 
+height: 650px;
+   background-color: #fff;
+}
+/*VI*/
+/*Arriba*/
+#VITop
+{
+height: 325px;
 background-color: green;
 }
+/*Abajo*/
+#VIBot
+{
+height: 325px;
+background-color: red;
+}
+/*VI*/
+
+/*VD*/
+#VDIz
+{
+height: 325px;
+background-color: yellow;
+}
+/*50*/
+#VDDr
+{
+height: 325px;
+background-color:blue;
+}
+/*VD*/
+
+/*in view content*/
+
+/* */
+
+.Subbanering
+{
+float: left;
+width: 25%;
+height: 100%;
+background-color: #934;
+z-index: 2;
+
+}
+/* */
+
 /*Container*/
