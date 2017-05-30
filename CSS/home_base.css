@@ -5,19 +5,45 @@
 }
 body
 {
+   
+    background-position: center 700px;
     /*Hacemos la regla para toda letra en la web*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     color: #fff;
 }
 div
 {
     display: block;
 }
+h1
+{
+    border-bottom: solid 1px #000;
+    color: #000;
+    
+    font-weight: normal;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    line-height: normal;
+    text-transform: none;
+
+}
+p
+{
+    color: #000;
+    text-decoration: none;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+a
+{
+    text-decoration: none;   
+}
 #warpper
 {
-   background: url(http://www.tachoo.xyz/home/img/BackGround.jpg);
-   background-repeat: no-repeat;
+  /* background: url(http://www.tachoo.xyz/home/img/BackGround.jpg);
+   background-repeat: no-repeat;*/
     width: 1903px;
     margin: 0px auto;
     height: 1892px;
@@ -25,9 +51,11 @@ div
 #mainc
 {
     margin:  0px auto;
-    height: 100%;
+    height: 800px;
 }
 #header {
+   
+    left: 0;
 	width: 1903px;
 	height:115px;
     
@@ -135,6 +163,7 @@ overflow: hidden;
     width: 1000px;
     height: 800px;
     margin: 0 auto;
+    
     z-index: 1;
 }
 
@@ -148,37 +177,49 @@ overflow: hidden;
 #viewcontent
 {
 width: 100%;
-height: 650px;
+height: 600px;
 
 /**/
 
+/**/
 
 }
+#viewcontent>a
+{
+
+width:100%;
+
+}
+#viewcontent>a>img
+{
+    height: 100%;
+}
+
+
 #moreviewcontent
 {
 width: 100%;
-height: 150px;  
+height: 200px;  
 /**/
 
 }
 
 /*in viewcontent*/
-#viewI , #ViewD 
-{
-float: left;
-}
+
 
 #ViewI
 {
 width: 400px;
-height: 650px;
+height: 600px;
 background-color: #335;
+float: left;
 }
 #ViewD
 {
 width: 600px; 
-height: 650px;
-   background-color: #fff;
+height: 600px;
+background-color: #fff;
+display:flex;
 }
 /*VI*/
 /*Arriba*/
@@ -198,30 +239,248 @@ background-color: red;
 /*VD*/
 #VDIz
 {
-height: 325px;
+width: 400;
+height: 600px;
 background-color: yellow;
 }
 /*50*/
 #VDDr
 {
-height: 325px;
+
+width:200px;     
+height: 600px;
 background-color:blue;
+}
+
+#VDIzUP
+{
+width: 100%;
+height: 300px;
+}
+#VDIzDown
+{
+width: 100%;
+height: 300px;
+}
+#VDDrUP
+{
+width: 100%;
+height: 300px;
+}
+#VDDrDown
+{
+width: 100%;
+height: 300px;
 }
 /*VD*/
 
-/*in view content*/
 
+#VITop>a,#VIBot>a,#VDIzUP>a,#VDIzDown>a,#VDDrUP>a,#VDDrDown>a
+{
+width: 100%;    
+position: relative;
+float: left;
+display:flex;
+overflow: hidden;
+}
+#MBlack1,#MBlack2,#MBlack3,#MBlack4,#MBlack5,#MBlack6
+{
+display: none;
+
+}
+
+/*in view content*/
+/**/
+#VITop a:hover #MColor1{ display: none; }
+#VIBot a:hover #MColor2{ display: none; }   
+#VDIzUP a:hover #MColor3{ display: none; }  
+#VDIzDown a:hover #MColor4{ display: none; }  
+#VDDrUP a:hover #MColor5{ display: none; }
+#VDDrDown a:hover #MColor6{ display: none; }
+
+#VITop a:hover #MBlack1{ 
+    display:  block;
+     -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+       transform: scale(1.2);
+  }
+#VIBot a:hover #MBlack2{ 
+    display:  block;
+     -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+       transform: scale(1.2);
+  }   
+#VDIzUP a:hover #MBlack3{ 
+    display:  block;
+     -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+       transform: scale(1.2);
+  }  
+#VDIzDown a:hover #MBlack4{
+     display: block;
+      -moz-transform: scale(1.2);
+       -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+  }  
+#VDDrUP a:hover #MBlack5{ 
+    display:  block;
+     -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+       transform: scale(1.2);
+  }
+#VDDrDown a:hover #MBlack6{ 
+    display:  block;
+     -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+       transform: scale(1.2);
+  }
 /* */
 
 .Subbanering
 {
 float: left;
-width: 25%;
-height: 100%;
+width: 200px;
+height: 202px;
 background-color: #934;
 z-index: 2;
+}
+
+.Subbanering>a
+{
+position: relative;
+width:100%;
+height:202px;
+    display: flex;
+    overflow: hidden;
+}
+.Subbanering>a>img
+{
+    height: 100%;
+}
+.Subbanering:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+/*Hacemos que no se vea*/
+#Sub1 a:hover #Color1{ display: none; }
+#Sub2 a:hover #Color2{ display: none; }   
+#Sub3 a:hover #Color3{ display: none; }  
+#Sub4 a:hover #Color4{ display: none; }  
+#Sub5 a:hover #Color5{ display: none; }
+ 
+/* */
+#footer
+{
+/*Creo que son las medidas perfectas*/
+    height: 270px;
+
+    margin-top:-50px;
+    display:flex;
+}
+#Fiz,#FDer
+{
+width: 50%;
+height: 100%;
+}
+#Fiz
+{ 
+
+    position:relative;
+    display:flex;
 
 }
-/* */
+#FDer
+{
+     
+     position:relative;
 
+}
+#Fiz>div
+{
+    width: 15%;
+    height: 100%;
+
+}
+#Company
+{
+
+margin-left: 40%;
+}
+
+#Carrers
+{
+
+margin-left:2%;
+}
+
+#Games
+{
+
+margin-left:2%;
+
+}
+
+/**/
+#F_Up
+{
+
+width: 100%;
+height: 50%;
+display:flex;
+}
+#F_iz
+{
+width: 60%; ;
+}
+/**/
+#F_iz>div
+{
+    margin-left: 35%;
+}
+/**/
+#Title
+{
+    width: 35%;
+}
+/**/
+#SocialMedia
+{
+width: 355;
+display: flex;
+height: 35px;
+}
+#SocialMedia>div
+{
+    margin-left:2%; 
+    height: 100%;
+}
+#SocialMedia>div>a
+{
+    width: 100%;
+}
+#SocialMedia>div>a>img
+{
+    height: 100%;
+}
+/**/
+#F_Der
+{
+width:40%; ;
+}
+#F_Down
+{
+margin-top: -30px;
+margin-left: 10px;
+width: 100%;
+height: 50%;
+}
+#F_Down>div
+{
+    margin: 0 0 auto 20%;
+    width: 300px;
+    height:55px;
+}
+/**/
 /*Container*/
