@@ -1,44 +1,4 @@
-@media screen and (min-width:300px)
-{
 
-body
-{
-    background: red;
-}
-#warpper
-{
-    width: 100%;
-    height: 100%;
-}
-
-}
-@media screen and (min-width:600px)
-{
-
-body
-{
-    background: #fff;
-}
-#warpper
-{
-    width: 100%;
-    height: 100%;
-}
-
-}
-@media screen and (min-width:767px)
-{
-
-body
-{
-    background: #fff;
-}
-#warpper
-{
-    width: 100%;
-    height: 100%;
-}
-}
 @media screen and (min-width:1020px)
 {
 

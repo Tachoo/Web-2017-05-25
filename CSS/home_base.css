@@ -289,6 +289,11 @@ overflow: hidden;
 display: none;
 
 }
+#Black1,#Black2,#Black3,#Black4,#Black5,#Black6
+{
+display: none;
+
+}
 
 /*in view content*/
 /**/
@@ -370,6 +375,12 @@ height:202px;
 #Sub3 a:hover #Color3{ display: none; }  
 #Sub4 a:hover #Color4{ display: none; }  
 #Sub5 a:hover #Color5{ display: none; }
+
+#Sub1 a:hover #Black1{ display: block; }
+#Sub2 a:hover #Black2{ display: block; }   
+#Sub3 a:hover #Black3{ display: block; }  
+#Sub4 a:hover #Black4{ display: block; }  
+#Sub5 a:hover #Black5{ display: block; }
  
 /* */
 #footer
