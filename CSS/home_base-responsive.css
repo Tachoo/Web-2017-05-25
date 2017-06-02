@@ -1,0 +1,55 @@
+
+@media screen and (min-width:1020px)
+{
+
+body
+{
+    background: #fff;
+     font-size: 13px;
+}
+#warpper
+{
+    width: 100%;
+    height: 100%;
+}
+
+#clearfix
+{
+    width: 72%;
+    margin: 0 auto;
+}
+#header
+{
+ 
+}
+#clearfix
+{
+
+}
+#globalnavi
+{
+
+}
+/**/
+#slider
+{
+
+}
+#mainc
+{
+
+}
+#footer
+{
+
+}
+}
+@media screen and (min-width:1400px)
+{
+
+body
+{
+    background: #fff;
+}
+
+}
