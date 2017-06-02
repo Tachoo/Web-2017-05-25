@@ -160,7 +160,7 @@ overflow: hidden;
 {
     top: -75px;
     position: relative;
-    background-color:#000;
+    
     width: 1000px;
     height: 800px;
     margin: 0 auto;
@@ -212,14 +212,14 @@ height: 200px;
 {
 width: 400px;
 height: 600px;
-background-color: #335;
+
 float: left;
 }
 #ViewD
 {
 width: 600px; 
 height: 600px;
-background-color: #fff;
+
 display:flex;
 }
 /*VI*/
@@ -227,13 +227,13 @@ display:flex;
 #VITop
 {
 height: 325px;
-background-color: green;
+
 }
 /*Abajo*/
 #VIBot
 {
 height: 325px;
-background-color: red;
+
 }
 /*VI*/
 
@@ -242,7 +242,7 @@ background-color: red;
 {
 width: 400;
 height: 600px;
-background-color: yellow;
+
 }
 /*50*/
 #VDDr
@@ -250,7 +250,7 @@ background-color: yellow;
 
 width:200px;     
 height: 600px;
-background-color:blue;
+
 }
 
 #VDIzUP
@@ -347,7 +347,7 @@ display: none;
 float: left;
 width: 200px;
 height: 202px;
-background-color: #934;
+
 z-index: 2;
 }
 
